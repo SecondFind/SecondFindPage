@@ -1,4 +1,4 @@
 # SecondFindPage
-strona projekt UEP
+Strona Projektowa UEP - secondfind 
 
-To jest read me bo tak github polecil ale tu nic nie ma
+Patryk Suterski & Hubert Rozestwiński 
