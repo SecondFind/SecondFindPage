@@ -1,1 +1,75 @@
-plik css secondfind
+body{
+    background-color: #7F6690;
+    color: white;
+    margin: 0 !important;
+}
+
+#container{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.logo{
+    float: left;
+    font-size: 75px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 360px;
+
+}
+#second{
+    color: #DBBA8E;
+}
+#find{
+    color: #DBA079;
+}
+
+.logowanie{
+    float: left;
+    width: 580px;
+
+}
+.login{
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    padding: 3px;
+    color: #7F6690;
+    background-color: #DBBA8E;
+    margin: 5px;
+
+}
+
+.signin{
+    float: left;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    padding: 3px;
+    color: #7F6690;
+    background-color: #DBBA8E;
+    margin: 5px;
+
+}
+
+
+.clearboth{
+    clear: both;
+}
+
+.menu{
+
+}
+
+.aboutus{
+
+}
+
+footer{
+    width: 960px;
+    margin: 20px;
+    text-align: center;
+}
+
