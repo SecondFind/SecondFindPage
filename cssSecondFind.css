@@ -11,7 +11,9 @@ body{
 
 }
 #topbar{
-
+    background: #00467F;
+    background: -webkit-linear-gradient(to right, #7F6690, #00467F);  
+    background: linear-gradient(to right, #7F6690, #00467F); 
 }
 
 .logo{
@@ -78,11 +80,12 @@ ol a:hover{
 .menu{
     background-color: #DBBA8E;
 }
-.menulista {
+.menulista li{
     text-decoration: none;
-    
+    float: left;
     width: 100%;
     text-align: center;
+    list-style-type:none;
 }
 .menulista 
 
@@ -95,9 +98,29 @@ ol a:hover{
 
 }
 footer{
-    
-    margin: 20px;
+    background: #00467F;
+    background: -webkit-linear-gradient(to right, #7F6690, #00467F);  
+    background: linear-gradient(to right, #7F6690, #00467F); 
+    margin:0px;
     text-align: center; 
 }
 
-
+ 
+ 
+     
+ div.glass-bg-color::before {
+     z-index: -1;
+     content: ' ';
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     //    filter: blur(4px);
+     //    box-shadow: inset 0 0 0 3000px rgba(255,255,255,0.3);
+     opacity: 0.3;
+     background-color: rgba(255,255,255, 1);
+ }
+     
+ .glass-bg-color {
+     color: white;
+     position: relative;
+ }
