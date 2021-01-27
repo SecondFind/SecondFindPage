@@ -8,7 +8,9 @@ body{
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-
+    background: #00467F;
+    background: -webkit-linear-gradient(to right, #7F6690, #00467F);  
+    background: linear-gradient(to right, #7F6690, #00467F);
 }
 #topbar{
     background: #00467F;
@@ -46,9 +48,11 @@ body{
     margin-left: 300px;
     border: #DBA079 5px solid;
     margin-top: 55px;
+    
 }
 ol{
     background-color: #DBBA8E;
+
 }
 
 ol > li{
@@ -59,7 +63,9 @@ ol > li{
     border: 1px solid #7F6690;
 }
 ol > li:hover{
-    background-color:  #7F6690;
+    background: #00467F;
+    background: -webkit-linear-gradient(to right, #7F6690, #00467F);  
+    background: linear-gradient(to right, #7F6690, #00467F);
 }
 
 ol a {
@@ -108,7 +114,7 @@ footer{
  
  
      
- div.glass-bg-color::before {
+ /*div.glass-bg-color::before {
      z-index: -1;
      content: ' ';
      width: 100%;
@@ -123,4 +129,18 @@ footer{
  .glass-bg-color {
      color: white;
      position: relative;
- }
+ } */
+ .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
