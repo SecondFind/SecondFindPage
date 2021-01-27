@@ -1,11 +1,18 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body{
     background-color: #7F6690;
     color: white;
     margin: 0 !important;
+    
 }
 
+
 #container{
-    width: 100%;
+    /*  width: 100%;*/
     margin-right: auto;
     margin-left: auto;
     background: #00467F;
@@ -98,6 +105,35 @@ ol a:hover{
 .aboutus{
 
 }
+.paragraf1 p{
+    text-align: center;
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 120px;
+    font-size: 18px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.paragraf1 img{
+   
+}
+
+.paragraf2 p{
+    float: left;
+    width: 400px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.paragraf2 img{
+    float: left;
+}
+
+.paragraf3 p{
+    float: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.paragraf3 img{
+    float: left;
+}
 
 #lowbar{
     
@@ -109,6 +145,7 @@ footer{
     background: linear-gradient(to right, #7F6690, #00467F); 
     margin:0px;
     text-align: center; 
+    padding: 30px;
 }
 
  
