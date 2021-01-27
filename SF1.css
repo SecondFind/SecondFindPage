@@ -1,0 +1,162 @@
+html, body{
+    overflow-x: hidden;
+}
+
+
+body{
+    background: #00467F;
+    background: -webkit-linear-gradient(to right, #7F6690, #00467F);  
+    background: linear-gradient(to right, #7F6690, #00467F);
+    color: #ffffff; 
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 0 !important;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    padding: 40px 0;
+}
+
+.logo{
+    width: 450px;
+    font-size: 60px;
+    margin-left: 300px;
+    margin-right: ;
+    float: left;
+
+}
+#rejestracja{
+    display: inline-block;
+
+}
+#rejestracja1{
+    float: left;
+    background-color: #DBBA8D;
+    color: white;
+    border: 5px solid #DBA079;
+    margin-left: 150px;
+    width: 50pxpx;
+    padding: 4px;
+    
+}
+#rejestracja1 a{
+    text-decoration: none;
+    color: white;
+}
+#rejestracja1 a:hover{
+    
+    color: #7F6690;
+}
+#rejestracja2{
+    float: left;
+    background-color: #DBBA8D;
+    color: white;
+    border: 5px solid #DBA079;
+    margin-left: 10px;
+    width: 100px;
+    padding: 4px;
+}
+#rejestracja a{
+    text-decoration: none;
+    color: white;
+}
+#rejestracja2 a:hover{
+    
+    color: #7F6690;
+}
+
+
+.nav{
+    width: 1000px;
+    padding: 0px 0;
+    background-color: #DBBA8D;
+    text-align: center;
+    border-top: 1px solid #7F6690;
+    border-bottom: 1px solid #7F6690;
+    margin-left: 140px;
+}
+
+.content{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding-top: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+
+.footer{
+    text-align: center;
+    background-color: #DBBA8D;
+    padding: 30px;
+
+}
+
+.sticky{
+    width: 100%;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+ol{
+    padding: 5px;
+    margin: 3px;
+    list-style-type:none;
+    font-size: 20px;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+   
+}
+
+ol a{
+    color: white;
+    text-decoration: none;
+    display: block;
+
+}
+
+ol > li{
+    float: left;
+    width: 150px;
+    height: 40px;
+   /* border-right: 1px solid #7F6690;
+    */
+
+}
+
+ol > li:first-child{
+   /* border-left: 1px solid #7F6690; */
+}
+
+ol > li:hover{
+    background-color: #EBC796;
+
+}
+
+ol > li:hover> a{
+    color: #7F6690;
+}
+
+ol > li > ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    display: none;
+
+
+}
+
+ol > li:hover > ul{
+     display: block;
+}
