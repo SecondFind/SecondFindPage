@@ -24,30 +24,33 @@ body{
 }
 
 .logo{
-    width: 450px;
+    width: 60%;
     font-size: 90px;
-    margin-left: 600px;
+    text-align: center;
     margin-right: ;
     float: left;
-
+    border:0px solid #DBBA8D ;
 }
 #rejestracja{
     display: inline-block;
-
+    width: 40%;
+    
+    
 }
 #rejestracja1{
     float: left;
     /*background-color: #DBBA8D;*/
-    color: white;
-    /*border: 5px solid #DBA079;*/
-    margin-left: 150px;
-    width: 50pxpx;
-    padding: 4px;
     
+    /*border: 5px solid #DBA079;*/
+    
+    text-align: center;
+    padding: 0px;
+    width: 20%;
+    border: 1px solid white;
 }
 #rejestracja1 a{
     text-decoration: none;
-    color: white;
+    color: #DBBA8D;
 }
 #rejestracja1 a:hover{
     
@@ -55,16 +58,17 @@ body{
 }
 #rejestracja2{
     float: left;
-    background-color: #DBBA8D;
-    color: white;
-    border: 5px solid #DBA079;
-    margin-left: 10px;
-    width: 100px;
-    padding: 4px;
+   /* background-color: #DBBA8D; */
+    
+    /* border: 5px solid #DBA079; */
+    width: 20%;
+    border: 1px solid white;
+    text-align: center;
+    padding: 0px;
 }
-#rejestracja a{
+#rejestracja2 a{
     text-decoration: none;
-    color: white;
+    color:#DBBA8D;
 }
 #rejestracja2 a:hover{
     
@@ -82,9 +86,9 @@ body{
 }
 
 .content{
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    margin-left: 18%;
+    margin-right: 18%;
     text-align: justify;
     padding-top: 0px;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -110,55 +114,51 @@ body{
 }
 
 .paragraf1{
-    width: 1000px;
+    width: 100%;
 }
 .paragraf1 p{
-    width: 400px;
+    width: 30%;
     float: left;
     text-align: center;
 
 }
 .paragraf1 img{
-    width: 560px;
+    width: 700px;
     float: left;
-    padding: 20px;
+    padding: 0px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+    height: 400px;
 }
 
+
 .paragraf2{
-  width: 1000px;
+  width: 100%;
 }
 .paragraf2 p {
-    width: 400px;
+    width: 30%;
     float: left;
 }
 .paragraf2 img{
-    width: 560px;
+    width: 700px;
     float: left;
-    padding: 20px;
+    padding: 0px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+    height: 400px;
 }
 
 .paragraf3{
-    width: 1000px;
+    width: 100%;
 }
 .paragraf3 p{
-    width: 400px;
+    width: 30%;
     float: left;
 }
 .paragraf3 img{
-    width:560px;
+    width:700px;
     float: left;
-    padding: 20px;
+    padding: 0px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+   height: 400px;
 }
 
 
