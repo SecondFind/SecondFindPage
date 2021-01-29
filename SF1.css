@@ -27,15 +27,12 @@ body{
     width: 60%;
     font-size: 90px;
     text-align: center;
-    margin-right: ;
     float: left;
     border:0px solid #DBBA8D ;
 }
 #rejestracja{
     display: inline-block;
     width: 40%;
-    
-    
 }
 #rejestracja1{
     float: left;
@@ -71,7 +68,6 @@ body{
     color:#DBBA8D;
 }
 #rejestracja2 a:hover{
-    
     color: #7F6690;
 }
 
@@ -81,14 +77,11 @@ body{
     padding: 0px 0;
     background-color: #DBBA8D;
     text-align: center;
-    margin:0 auto;
     margin-bottom: 40px;
 }
 
 .content{
     width: 1920px;
-    margin-left: ;
-    margin-right: ;
     padding-top: 0px;
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -101,6 +94,7 @@ body{
     padding: 30px;
     float: left;
     width: 100%;
+    margin-top: 80px;
 }
 
 .sticky{
@@ -114,54 +108,88 @@ body{
 
 .paragraf1{
     width: 1920px;
+    height: 400px;
 }
 .paragraf1 p{
-    width: 700px;
+    width: 638px;
     float: left;
     text-align: center;
-    height: 300px;
+    vertical-align:middle;
+    font-size: 30px;
+    height: 228px;
     border: 1px solid white;
+    padding: 30px;
+    margin-left: 150px;
+    margin-right: 0px;
+    margin-top: 40px;
 }
 .paragraf1 img{
-    width: 1220px;
     float: left;
-    padding: 10px;
+    padding: 0px;
     display: block;
-    height: 400px;
-    
+    height: 398px;
+    border: 1px solid white;
+    width: 768px;
+    margin-left: 100px;
+    margin-right: 200px;
 }
 
 
 .paragraf2{
-  
+  width: 1920px;
+  height: 400px;
 }
 .paragraf2 p {
-    width: 700px;
+    width: 638px;
     float: left;
     text-align: center;
-    height: 1220px;
+    vertical-align:middle;
+    font-size: 30px;
+    height: 398px;
+    border: 1px solid white;
+    margin-left: 30px;
+    margin-right: 220px;
+    margin-top: 80px;
 }
 .paragraf2 img{
-    width: 700px;
+    width: 768px; 
     float: left;
     padding: 0px;
     display: block;
-    height: 400px;
+    height: 398px;
+    border: 1px solid white;
+    margin-right:105px ;
+    margin-left: 155px;
+    margin-top: 30px;
 }
 
 .paragraf3{
-    
+    width: 1920px;
+    height: 400px;
 }
 .paragraf3 p{
-    width: 300px;
-    float: left;
+  width: 638px;
+  float: left;
+  text-align: center;
+  vertical-align:middle;
+  font-size: 30px;
+  height: 298px;
+  border: 1px solid white;
+  padding: 30px;
+  margin-left: 150px;
+  margin-right: 0px;
+  margin-top: 60px;
 }
 .paragraf3 img{
-    width:700px;
-    float: left;
-    padding: 0px;
-    display: block;
-   height: 400px;
+  float: left;
+  padding: 0px;
+  display: block;
+  height: 398px;
+  border: 1px solid white;
+  width: 768px;
+  margin-left: 100px;
+  margin-right: 200px;
+  margin-top: 30px;
 }
 
 
@@ -192,7 +220,7 @@ ol > li{
 
 }
 
-ol > li:first-child{
+ol > li:first-child {
    /* border-left: 1px solid #7F6690; */
 }
 
