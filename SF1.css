@@ -2,7 +2,6 @@ html, body{
     overflow-x: hidden;
 }
 
-
 body{
     background: #00467F;
     background: -webkit-linear-gradient(to right, #7F6690, #00467F);  
@@ -11,7 +10,6 @@ body{
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     margin: 0 !important;
-    
 }
 
 .wrapper{
@@ -37,29 +35,25 @@ body{
 #rejestracja1{
     float: left;
     /*background-color: #DBBA8D;*/
-    
     /*border: 5px solid #DBA079;*/
-    
     text-align: center;
     padding: 0px;
     width: 20%;
-    border: 1px solid white;
+    border: 0px solid white;
 }
 #rejestracja1 a{
     text-decoration: none;
     color: #DBBA8D;
 }
-#rejestracja1 a:hover{
-    
+#rejestracja1 a:hover{ 
     color: #7F6690;
 }
 #rejestracja2{
     float: left;
    /* background-color: #DBBA8D; */
-    
     /* border: 5px solid #DBA079; */
     width: 20%;
-    border: 1px solid white;
+    border: 0px solid white;
     text-align: center;
     padding: 0px;
 }
@@ -86,8 +80,6 @@ body{
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-
-
 .footer{
     text-align: center;
     background-color: #DBBA8D;
@@ -98,7 +90,7 @@ body{
 }
 
 .sticky{
-    width: 100%;  /* 100% */
+    width: 100%;  
     position: fixed;
     left: 0;
     top: 0;
@@ -117,7 +109,7 @@ body{
     vertical-align:middle;
     font-size: 30px;
     height: 228px;
-    border: 1px solid white;
+    border: 0px solid white;
     padding: 30px;
     margin-left: 150px;
     margin-right: 0px;
@@ -128,7 +120,7 @@ body{
     padding: 0px;
     display: block;
     height: 398px;
-    border: 1px solid white;
+    border: 0px solid white;
     width: 768px;
     margin-left: 100px;
     margin-right: 200px;
@@ -146,7 +138,7 @@ body{
     vertical-align:middle;
     font-size: 30px;
     height: 398px;
-    border: 1px solid white;
+    border: 0px solid white;
     margin-left: 30px;
     margin-right: 220px;
     margin-top: 80px;
@@ -157,7 +149,7 @@ body{
     padding: 0px;
     display: block;
     height: 398px;
-    border: 1px solid white;
+    border: 0px solid white;
     margin-right:105px ;
     margin-left: 155px;
     margin-top: 30px;
@@ -174,7 +166,7 @@ body{
   vertical-align:middle;
   font-size: 30px;
   height: 298px;
-  border: 1px solid white;
+  border: 0px solid white;
   padding: 30px;
   margin-left: 150px;
   margin-right: 0px;
@@ -185,7 +177,7 @@ body{
   padding: 0px;
   display: block;
   height: 398px;
-  border: 1px solid white;
+  border: 0px solid white;
   width: 768px;
   margin-left: 100px;
   margin-right: 200px;
@@ -201,23 +193,19 @@ ol{
     height: 35px;
     line-height: 200%;
     display: inline-block;
-   
 }
 
 ol a{
     color: white;
     text-decoration: none;
     display: block;
-
 }
 
 ol > li{
     float: left;
     width: 150px;
     height: 40px;
-   /* border-right: 1px solid #7F6690;
-    */
-
+   /* border-right: 1px solid #7F6690;*/
 }
 
 ol > li:first-child {
@@ -239,8 +227,6 @@ ol > li > ul{
     margin: 0;
     height: 40px;
     display: none;
-
-
 }
 
 ol > li:hover > ul{
