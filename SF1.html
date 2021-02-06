@@ -12,11 +12,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=O
-    pen+Sans&family=Oswald:wght@300;400;500;700&family=Raleway&display=swap" rel="stylesheet">
+                pen+Sans&family=Oswald:wght@300;400;500;700&family=Raleway&display=swap" rel="stylesheet">
 
 
     <title>SecondFind</title>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
 
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        </script>
 </head>
 <body>
     <div class="wrapper">
@@ -26,7 +36,7 @@
             </div>
             <div id="rejestracja">
                 <div id="rejestracja1">
-                    <span><!--<a href="zalogujsie.html">-->Zaloguj się </a></span>
+                    <!--<span><a>Zaloguj się </a></span>-->
                     <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Zaloguj się</button>
                     <div id="id01" class="modal">
                         <form class="modal-content animate" action="/action_page.php" method="post">
@@ -53,8 +63,9 @@
                                 <span class="psw"><a href="#">Forgot password?</a></span>
                             </div>
                         </form>
-                    </div>
-                    <script>
+                        
+                </div>
+                    <!--<script>
                         // Get the modal
                         var modal = document.getElementById('id01');
                 
@@ -82,12 +93,12 @@
 
         <div class="nav">
             <ol>
-                <li><a href="#">Strona Główna</a> </li>
+                <li><a href="SF1.html">Strona Główna</a> </li>
                 <li><a href="#">Kontakt</a> </li> 
-                <li><a href="#">Forum</a> </li>
-                <li><a href="#">Czat</a> </li>
-                <li><a href="#">LUMP</a> </li>
-                <li><a href="#">O nas</a> </li>
+                <li><a href="forum.html">Forum</a> </li>
+                <li><a href="czat.html">Czat</a> </li>
+                <li><a href="LUMP.html">LUMP</a> </li>
+                <li><a href="onas.html">O nas</a> </li>
             </ol>
 
         </div>
