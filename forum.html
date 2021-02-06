@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="secondfind, lump, odzieżużywana, odzież, recykling, ekologia, sklep odzieżowy, secondhand, second hand, odzież używana, ubrania"/>
+    <meta name="description" content="Strona internetowa promująca lumpy, odzież używaną oraz filozofię 
+    ubrań z drugiej ręki"/>
+    <link rel="icon" href="sf.ico"/>
+    <link rel="stylesheet" href="SF1.css" type="text/css"/>
+    <script src="jsSecondFind.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=O
+                pen+Sans&family=Oswald:wght@300;400;500;700&family=Raleway&display=swap" rel="stylesheet">
+
+
+    <title>SecondFind</title>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo">
+                <a href="SF1.html" <span style="color: #DBBA8D; text-decoration: none;"> Second</span><span style="color:#DBA079">Find</span> 
+            </div>
+            <div id="rejestracja">
+                <div id="rejestracja1">
+                    <!--<span><a>Zaloguj się </a></span>-->
+                    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Zaloguj się</button>
+                    <div id="id01" class="modal">
+                        <form class="modal-content animate" action="/action_page.php" method="post">
+                            <div class="imgcontainer">
+                                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                                <img src="img_avatar2.jpg" alt="Avatar" class="avatar">
+                            </div>
+                            
+                            <div class="container">
+                                <label for="uname"><b>Username</b></label>
+                                <input type="text" placeholder="Enter Username" name="uname" required>
+            
+                                <label for="psw"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="psw" required>
+                                
+                                <button type="submit">Login</button>
+                                <label>
+                                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                                </label>
+                            </div>
+            
+                            <div class="container" style="background-color:#f1f1f1">
+                                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                <span class="psw"><a href="#">Forgot password?</a></span>
+                            </div>
+                        </form>
+                        
+                </div>
+                    <!--<script>
+                        // Get the modal
+                        var modal = document.getElementById('id01');
+                
+                        // When the user clicks anywhere outside of the modal, close it
+                        window.onclick = function(event) {
+                            if (event.target == modal) {
+                                modal.style.display = "none";
+                            }
+                        }
+                        </script>
+                    -->
+            </div>
+                
+                <div id="rejestracja2">
+                    <span><a href="rejestracja.html"> Rejestracja </a></span>
+                </div>
+                <div style="clear:both"></div>
+                    
+            </div><div style="clear:both;"></div>
+        </div>
+
+        <!--TUTAJ JEST WALNIETY PRZYSCIK-->
+
+        <!--<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button> -->
+
+        <div class="nav">
+            <ol>
+                <li><a href="SF1.html">Strona Główna</a> </li>
+                <li><a href="#">Kontakt</a> </li> 
+                <li><a href="forum.html">Forum</a> </li>
+                <li><a href="czat.html">Czat</a> </li>
+                <li><a href="#">LUMP</a> </li>
+                <li><a href="onas.html">O nas</a> </li>
+            </ol>
+
+        </div>
+        <div class="content">
+            
+        <footer class="footer">
+            2021 &copy; Second Find / Hubert Rozestwiński & Patryk Suterski
+        </footer>
+        <div class="clearboth"></div>
+    </div>
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script>
+
+        $(document).ready(function() {
+        var NavY = $('.nav').offset().top;
+         
+        var stickyNav = function(){
+        var ScrollY = $(window).scrollTop();
+              
+        if (ScrollY > NavY) { 
+            $('.nav').addClass('sticky');
+        } else {
+            $('.nav').removeClass('sticky'); 
+        }
+        };
+         
+        stickyNav();
+         
+        $(window).scroll(function() {
+            stickyNav();
+        });
+        });
+        
+    </script>
+
+
+
+</body>
+</html>
