@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=O
                 pen+Sans&family=Oswald:wght@300;400;500;700&family=Raleway&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>SecondFind</title>
     <script>
@@ -31,14 +31,31 @@
 <style> 
 
 #rcorners2 {
-  border-radius: 25px;
-  border: 2px solid #73AD21;
-  padding: 20px; 
-  width: 200px;
+  border-radius: 40px;
+  border: 2px solid #dbba8d;
+  padding: 30px; 
+  width: 500px;
   height: 150px;  
 }
 
+#rcorners3 {
+  border-radius: 40px;
+  border: 2px solid #dbba8d;
+  padding: 30px; 
+  width: 1000px;
+  height: 150px;  
+}
 
+.vertical { 
+  border-left: 4px solid #dbba8d; 
+  height: 200px; 
+  position:absolute; down:40px;
+  left: 40%; 
+} 
+
+.checked {
+  color:#dbba8d ;
+}
 </style>
 </head>
 <body>
@@ -148,8 +165,45 @@
         
     </script>
 
+    <div style = "position:relative; left:220px; color:#dbba8d">
+        <h3>Forum</h3>
+            <p id="rcorners2">
+                <div style="display:block;text-align:left"
+                    <div style="display:block;text-align:top left">
+                    <img src="secondhand1.jpg" width="215" height="140" >Kapuścińscy 
+                    <p style="font-size:15px;">Adres:Ogrodowa 18</p>
+                    <p style="font-size:15px;">Godziny otwarcia:9:00-18:00</p>
+                    <br>
+                  
+                    <div class = "vertical"></div> 
 
-<p id="rcorners2">Tekst na forum :))</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+
+            </p>
+
+            <p id="rcorners3">
+                <img src="secondhand2.jpg" width="215" height="140">
+                    
+                    
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+
+                    <p style="font-size:15px;">Adres:Ogrodowa 18</p>
+                    <p style="font-size:15px;">Godziny otwarcia:7:00-18:30</p>
+
+            </p>
+            
+            </p>
+
+        
+    </div>
 
 
 </body>
